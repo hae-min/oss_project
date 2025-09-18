@@ -1,12 +1,20 @@
-# React + Vite
+# Instagram Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Instagram-like web app** built with **React.js** that demonstrates core social-media features such as stories, posts, and profile management.
 
-Currently, two official plugins are available:
+## 🚀 About
+This project replicates basic Instagram functionality:
+- Stories, post feed and user suggestions
+- Profile management with **CRUD operations** (update profile, follow/unfollow)
+- **Dynamic profile routing** using React Router (`Link`, `useNavigate`, `useParams`)
+- **Responsive UI** using Bootstrap and **state management** with React Hooks
+- Data handled through **JSON Server** with **Axios** for API calls
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Bootstrap, React Router, React Hooks  
+- **Backend (Mock API):** JSON Server  
+- **HTTP Client:** Axios
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ⚡ This project is for learning purposes only and mimics Instagram’s core features.
