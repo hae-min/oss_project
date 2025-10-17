@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.js'
 import Viewstory from './Viewstory.jsx'
 import Profile from './Profile.jsx'
-
+//main, 스토리, 사용자 프로필로 갈 수 있는 페이지
 
 const router=createBrowserRouter(
   [
